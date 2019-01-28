@@ -1,0 +1,72 @@
+.recent-work {
+    margin: 0;
+    height: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.65)), url("/img/Testimonials/testimonials.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 0px 11px 30px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 11px 30px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 11px 30px 0px rgba(0, 0, 0, 0.75);
+    border-top: 1px solid rgba(0, 0, 0, 0.438);
+    border-bottom: .5px solid rgba(33, 41, 39, 0.726);
+    border: 3px solid black;
+    z-index: 998;
+    display: relative;
+}
+
+.recent-work h2 {
+    margin: 0;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-shadow: 0 0 20px rgb(0, 0, 0), 0 0 30px rgb(0, 0, 0), 0 0 30px rgb(0, 0, 0);
+}
+
+.recentwork-container {
+    width: 100%;
+    overflow: auto;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0 20px 0;
+}
+
+.project-container {
+    margin: 0;
+    height: auto;
+    overflow: visible;
+    width: 350px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    border: 3px solid #000000;
+    background: rgb(233, 248, 243);
+    text-align: center;
+    -webkit-box-shadow: 0px 11px 20px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 0px 11px 20px 0px rgba(255, 255, 255, 0.75);
+    box-shadow: inset 2px -1px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.project-container img {
+    height: auto;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 2px solid #000000;
+}
+
+.project-container h3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.411), #000);
+    margin-top: -4px;
+    padding: 10px;
+    color: white;
+}
+
+.project-container p {
+    margin: 0 0 20px 0;
+    padding: 15px;
+    font-size: 20px;
+}

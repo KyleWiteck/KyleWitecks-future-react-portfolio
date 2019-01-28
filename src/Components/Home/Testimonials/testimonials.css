@@ -1,0 +1,90 @@
+.testimonials {
+    margin: 0;
+    padding: 50px;
+    height: auto;
+    background: url("/img/Services/black-linen.png");
+    -webkit-box-shadow: inset 0px 28px 57px -3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0px 13px 57px -3px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0px 11px 20px 0px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    color: #33403C;
+    text-shadow: 0 0 15px #fff, 0 0px #fff, 0 0 20px #fff, 0 0 15px #fff, 0 0 20px #fff;
+}
+
+.review-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.review {
+    margin: 20px 20px;
+    overflow: auto;
+    background: none;
+    width: 380px;
+    background: rgb(245, 255, 252);
+    border-radius: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 11px 20px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 11px 20px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 11px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.review img {
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px 0 10px 0;
+    border: 1.5px solid black;
+    margin-right: 15px;
+}
+
+.reviewer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border-bottom: 2px solid black;
+    border-radius: 10px 10px 0 0;
+    background: linear-gradient( rgba(51, 64, 60, 0.911), rgb(51, 64, 60));
+    color: #fff;
+}
+
+.reviewer-info {
+    margin-top: 50px;
+}
+
+.reviewer-info h4 {
+    width: 100px;
+    margin: 0;
+}
+
+.review-text p {
+    word-wrap: break-word;
+    padding: 25px;
+    margin: 0;
+    font-size: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.testimonials button {
+    text-align: center;
+    padding: 15px;
+    background: rgb(253, 0, 80);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid black;
+    -webkit-box-shadow: 7px 11px 18px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 11px 18px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 7px 11px 18px 0px rgba(0, 0, 0, 0.75);
+}

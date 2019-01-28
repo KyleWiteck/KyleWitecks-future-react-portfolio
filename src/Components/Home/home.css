@@ -1,0 +1,5 @@
+.content {
+    padding-top: 1000px;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
