@@ -9,7 +9,7 @@ const Carousel = props => {
 		<div>
 			<ReactSwipe
 				className="carousel"
-				swipeOptions={{ continuous: false }}
+				swipeOptions={{ continuous: true }}
 				ref={el => (reactSwipeEl = el)}
 			>
 				{props.testimonials}

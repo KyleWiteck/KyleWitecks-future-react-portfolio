@@ -52,7 +52,7 @@ class Testimonials extends Component {
 
 	reviewsCreator = array => {
 		console.log(array);
-		const review = array.slice(0, 4).map((review, key) => (
+		const review = array.slice(0, 3).map((review, key) => (
 			<div className="review" key={key}>
 				<div className="reviewer">
 					<img src={review.picture} alt="" />
@@ -74,7 +74,7 @@ class Testimonials extends Component {
 			<div className="testimonials">
 				<h2>Testimonials</h2>
 				<div className="review-container">
-					<Carousel testimonials={this.reviewsCreator(this.reviews)} />
+					{this.reviewsCreator(this.reviews)}
 				</div>
 				<button>Give Your Testimonial</button>
 			</div>

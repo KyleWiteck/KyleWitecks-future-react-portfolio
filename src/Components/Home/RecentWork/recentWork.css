@@ -33,7 +33,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px 0 20px 0;
+    align-items: baseline;
 }
 
 .project-container {
@@ -41,7 +41,7 @@
     height: auto;
     overflow: visible;
     width: 350px;
-    margin: 20px 20px;
+    margin: 20px 15px;
     border-radius: 10px;
     border: 3px solid #000000;
     background: rgb(233, 248, 243);
