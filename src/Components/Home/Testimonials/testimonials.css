@@ -22,16 +22,24 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: baseline;
+    vertical-align: middle;
     width: 100%;
     margin: 30px 0;
 }
 
+.slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
 .review {
-    margin: 20px 15px;
-    overflow: auto;
+    margin: 0 15px;
     background: none;
+    overflow: hidden;
     width: 320px;
+    height: 350px;
     background: rgb(245, 255, 252);
     border-radius: 1%;
     border: 2px solid black;
@@ -39,6 +47,12 @@
     -webkit-box-shadow: 0px 11px 20px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 11px 20px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 2px 11px 20px 0px rgba(0, 0, 0, 0.75);
+    opacity: .5;
+}
+
+.review-center {
+    height: auto;
+    opacity: 1;
 }
 
 .review img {
