@@ -5,6 +5,7 @@ import './home.css';
 import Services from './Services/services';
 import RecentWork from './RecentWork/recentWork';
 import Testimonials from './Testimonials/testimonials';
+import ReviewModal from './reviewModal/reviewModal';
 
 class Home extends Component {
 	state = {};
@@ -14,6 +15,7 @@ class Home extends Component {
 				<Services />
 				<RecentWork />
 				<Testimonials />
+				<ReviewModal />
 			</div>
 		);
 	}

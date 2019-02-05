@@ -19,7 +19,7 @@ header {
 
 .scrollNav {
    animation: fade-in .35s ease-in;
-   background: linear-gradient( rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.493));
+   background: linear-gradient( rgba(0, 0, 0, 0.979), rgba(0, 0, 0, 0.712));
 }
 
 @keyframes fade-in {
@@ -27,13 +27,13 @@ header {
       background: none
    }
    to {
-      background: rgba(0, 0, 0, 0.493);
+      background: rgba(0, 0, 0, 0.712);
    }
 }
 
 @keyframes fade-out {
    from {
-      background: rgba(0, 0, 0, 0.493);
+      background: rgba(0, 0, 0, 0.541);
    }
    to {
       background: none;

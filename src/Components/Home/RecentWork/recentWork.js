@@ -62,7 +62,7 @@ const RecentWork = () => {
 	];
 
 	const recentprojects = obj => {
-		const project = obj.slice(0, 4).map((item, key) => (
+		const project = obj.slice(0, 3).map((item, key) => (
 			<div className={`project-container key${key}`} key={key}>
 				<img className={item.name} src={item.img} alt={item.alt} />
 				<h3>{item.name}</h3>

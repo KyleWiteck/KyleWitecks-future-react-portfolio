@@ -31,18 +31,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     width: 100%;
+    margin: 0;
 }
 
 .review {
-    margin: 0 15px;
     background: none;
     overflow: hidden;
-    width: 320px;
-    height: 350px;
+    width: 15%;
+    height: 200px;
     background: rgb(245, 255, 252);
-    border-radius: 1%;
-    border: 2px solid black;
     border-radius: 10px;
     -webkit-box-shadow: 0px 11px 20px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 11px 20px 0px rgba(0, 0, 0, 0.75);
@@ -50,9 +49,64 @@
     opacity: .5;
 }
 
+.review-left {
+    margin-right: -100px;
+}
+
+.review-right {
+    margin-left: -100px;
+}
+
 .review-center {
     height: auto;
     opacity: 1;
+    z-index: 980;
+    width: 40%;
+    min-width: 235px;
+    overflow: hidden;
+}
+
+.review-animate {
+    animation: fade-in .1s ease 1;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.review-animate-right {
+    animation: slide-right .3s ease 1;
+}
+
+@keyframes slide-right {
+    from {
+        opacity: 0;
+        margin-left: 30px;
+    }
+    to {
+        opacity: 1;
+        margin-left: 0;
+    }
+}
+
+.review-animate-left {
+    animation: slide-left .3s ease 1;
+}
+
+@keyframes slide-left {
+    from {
+        opacity: 0;
+        margin-right: 30px;
+    }
+    to {
+        opacity: 1;
+        margin-right: 0;
+    }
 }
 
 .review img {
@@ -61,6 +115,11 @@
     margin: 20px 0 10px 0;
     border: 1.5px solid black;
     margin-right: 15px;
+}
+
+.review-left img, .review-right img {
+    height: 50px;
+    margin: 20px 0 5px 0;
 }
 
 .reviewer {
@@ -72,6 +131,14 @@
     border-radius: 10px 10px 0 0;
     background: linear-gradient( rgba(51, 64, 60, 0.911), rgb(51, 64, 60));
     color: #fff;
+}
+
+.review-left .reviewer-info, .review-right .reviewer-info {
+    margin: 30px 0 0 5px;
+}
+
+.review-left h4, .review-right h4 {
+    font-size: 8px;
 }
 
 .reviewer-info {
@@ -87,19 +154,42 @@
     word-wrap: break-word;
     padding: 25px;
     margin: 0;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 0 0 10px 10px;
 }
 
-.testimonials button {
+.slider-btn-left, .slider-btn-right {
+    background: transparent;
+    color: #fff;
+    font-size: 35px;
+    border: none;
+    z-index: 990;
+    text-shadow: 3px 3px 2px rgb(0, 0, 0);
+    padding: 150px 0;
+    cursor: pointer;
+}
+
+.slider-btn-left {
+    margin-right: 54px;
+    float: left;
+    right: 10px;
+}
+
+.slider-btn-right {
+    margin-left: 54px;
+    float: right;
+}
+
+.testimonials .add-testimonial-btn {
     text-align: center;
     padding: 15px;
     background: rgb(253, 0, 80);
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     border: 1px solid black;
     -webkit-box-shadow: 7px 11px 18px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 7px 11px 18px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 7px 11px 18px 0px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
