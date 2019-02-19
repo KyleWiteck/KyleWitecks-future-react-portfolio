@@ -14,9 +14,9 @@ const Footer = () => {
 			<div className="social-media">
 				<a
 					href="https://www.linkedin.com/in/kylewiteck/"
-					class="fa fa-linkedin"
+					className="fa fa-linkedin"
 				/>
-				<a href="https://github.com/KyleWiteck" class="fa fa-github" />
+				<a href="https://github.com/KyleWiteck" className="fa fa-github" />
 			</div>
 		</footer>
 	);

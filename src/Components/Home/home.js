@@ -8,14 +8,37 @@ import Testimonials from './Testimonials/testimonials';
 import ReviewModal from './reviewModal/reviewModal';
 
 class Home extends Component {
-	state = {};
+	state = {
+		showTestimonialModal: false,
+	};
+
+	showModalButton = () => {
+		console.log('working');
+		this.setState({
+			showTestimonialModal: true,
+		});
+	};
+
+	closeModalButton = () => {
+		this.setState({
+			showTestimonialModal: false,
+		});
+	};
+
 	render() {
 		return (
 			<div>
 				<Services />
 				<RecentWork />
-				<Testimonials />
-				<ReviewModal />
+				<ReviewModal
+					closeModal={() => {
+						this.setState({
+							showTestimonialModal: false,
+						});
+					}}
+					modalState={this.state.showTestimonialModal}
+				/>
+				<Testimonials showModal={this.showModalButton} />
 			</div>
 		);
 	}

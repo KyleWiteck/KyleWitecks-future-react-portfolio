@@ -4,7 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 //Components
 import Home from './Components/Home/home';
 import Layout from './HOC/Layout/layout';
-import Projects from './Components/projects/projects';
+import Projects from './Components/Projects/projects';
 import Contact from './Components/Contact/contact';
 import About from './Components/About/about';
 

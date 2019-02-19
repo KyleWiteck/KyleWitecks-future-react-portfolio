@@ -1,15 +1,18 @@
 header {
    margin: 0;
    width: 100%;
+   padding: 0;
    height: 60px;
    align-content: flex-start;
    text-decoration: none;
    position: fixed;
    z-index: 999;
+   left: "0";
+   bottom: "0";
 }
 
 .header {
-   background: black;
+   background: linear-gradient( rgba(0, 0, 0, 0.979), rgba(0, 0, 0, 0.712));
 }
 
 .hero-header {

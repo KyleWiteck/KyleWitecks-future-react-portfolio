@@ -1,0 +1,25 @@
+.my-projects {
+    background: linear-gradient(rgba(0, 0, 0, 0.808), rgba(107, 107, 107, 0.65)), url("/img/Testimonials/testimonials.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+
+.projects-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 70px 70px 70px;
+}
+
+.my-projects h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-top: 120px;
+}

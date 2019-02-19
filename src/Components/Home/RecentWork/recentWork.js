@@ -1,6 +1,9 @@
 import React from 'react';
 import './recentWork.css';
 
+//widgets
+import ProjectCard from '../../../Widgets/ProjectCard/projectCard';
+
 const RecentWork = () => {
 	const projects = [
 		{
@@ -61,21 +64,12 @@ const RecentWork = () => {
 		},
 	];
 
-	const recentprojects = obj => {
-		const project = obj.slice(0, 3).map((item, key) => (
-			<div className={`project-container key${key}`} key={key}>
-				<img className={item.name} src={item.img} alt={item.alt} />
-				<h3>{item.name}</h3>
-				<p>{item.info}</p>
-			</div>
-		));
-		return project;
-	};
-
 	return (
 		<div className="recent-work">
 			<h2>Recent Work</h2>
-			<div className="recentwork-container"> {recentprojects(projects)}</div>
+			<div className="recentwork-container">
+				<ProjectCard projects={projects} start={0} end={3} />
+			</div>
 		</div>
 	);
 };

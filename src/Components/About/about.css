@@ -1,0 +1,86 @@
+.about {
+    width: auto;
+    margin: 0;
+    background: rgb(221, 224, 221);
+    /* background: url("/img/Services/black-linen.png"); */
+}
+
+.about-info {
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    min-height: 500px;
+    padding: 90px 0 20px 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(129, 128, 128, 0.322)), url("/img/About/temp-male.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-shadow: 0px 11px 30px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 11px 30px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 11px 30px 0px rgba(0, 0, 0, 0.75);
+}
+
+.about-content {
+    color: #fff;
+    width: 70%;
+    min-width: 300px;
+    max-width: 800px;
+}
+
+.empty-div {
+    width: 20%;
+}
+
+.about-content p {
+    margin: 0;
+    padding: 10px;
+}
+
+.about h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 3.5em;
+    margin: 0;
+    margin-bottom: 80px;
+}
+
+.about h2 {
+    font-size: 1em;
+    margin-left: 48px;
+}
+
+.random-facts, .story {
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.random-facts h2, .story h2 {
+    color: #fff;
+    margin: 15px 0;
+    font-size: 2.5em;
+}
+
+.random-facts-container, .story-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: rgb(0, 0, 0);
+}
+
+.random-facts-container p, .story-container p {
+    width: 50%;
+    margin: 0;
+}
+
+.story-container img .picture-gallery img {
+    width: 50%
+}

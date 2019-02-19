@@ -221,8 +221,6 @@ class Testimonials extends Component {
 		};
 
 		const testimonialCard = (classname, activeIndex) => {
-			console.log(this.reviews.length);
-			console.log(activeIndex);
 			return (
 				<div className={classname}>
 					<div className="reviewer">
@@ -295,7 +293,6 @@ class Testimonials extends Component {
 	}
 
 	render() {
-		console.log(this.reviews.length);
 		return (
 			<div className="testimonials">
 				<h2>Testimonials</h2>
@@ -303,7 +300,9 @@ class Testimonials extends Component {
 					{this.reviewsCreator(this.reviews)}
 				</div>
 
-				<button className="add-testimonial-btn">Give Your Testimonial</button>
+				<button className="add-testimonial-btn" onClick={this.props.showModal}>
+					Give Your Testimonial
+				</button>
 			</div>
 		);
 	}

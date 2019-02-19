@@ -22,7 +22,7 @@ class Layout extends Component {
 
 	render() {
 		return (
-			<div>
+			<div className="layout">
 				{this.headerOrHero()}
 				{this.props.children}
 				<Footer />
