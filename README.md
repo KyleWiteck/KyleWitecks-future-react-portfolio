@@ -1,6 +1,6 @@
 # This project is currently under construction.
 ## Kyle Witeck's Future React Portfolio
-A dynamic React portfolio site. It is currently still being built. Most of the pages are working, some design still needs to be implemented and the back end needs to be developed. This site will eventually use Google Firebase to store its data. I also have built a testimonial carousal only using React and the react-swipeable dependency for mobile. My goal is to create as much of it as I can from scratch. This will be my future portfolio.
+A dynamic React portfolio site. It is currently still being built. Most of the pages are working, some design still needs to be implemented and the back end needs to be developed. This site will eventually use Google Firebase to store its data. I also have built a testimonial carousal only using React and the react-swipeable dependency for mobile. This will be my future portfolio.
 
 ## Dependencies
 
